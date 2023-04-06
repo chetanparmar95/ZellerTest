@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly Render when not selected 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "borderRadius": 10,
+      "flex": 1,
+      "flexDirection": "row",
+      "marginVertical": 4,
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderColor": "rgb(48,111,199)",
+          "borderRadius": 12,
+          "borderWidth": 1,
+          "height": 24,
+          "justifyContent": "center",
+          "width": 24,
+        },
+        {
+          "borderColor": "rgb(234,242,250)",
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      {
+        "marginHorizontal": 16,
+      }
+    }
+  >
+    Manager
+  </Text>
+</View>
+`;
+
+exports[`renders correctly Render when selected 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "rgb(234,242,250)",
+      "borderRadius": 10,
+      "flex": 1,
+      "flexDirection": "row",
+      "marginVertical": 4,
+      "opacity": 1,
+      "paddingHorizontal": 16,
+      "paddingVertical": 16,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderColor": "rgb(48,111,199)",
+          "borderRadius": 12,
+          "borderWidth": 1,
+          "height": 24,
+          "justifyContent": "center",
+          "width": 24,
+        },
+        {
+          "borderColor": "rgb(48,111,199)",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "rgb(48,111,199)",
+          "borderRadius": 8,
+          "height": 16,
+          "width": 16,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      {
+        "marginHorizontal": 16,
+      }
+    }
+  >
+    Admin
+  </Text>
+</View>
+`;
